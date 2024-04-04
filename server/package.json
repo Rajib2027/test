@@ -1,0 +1,29 @@
+{
+  "name": "real-estate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1",
+    "mongoose": "^8.1.0",
+    "mongoose-dateonly": "^1.0.6",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.8",
+    "nodemon": "^3.0.3"
+  }
+}
